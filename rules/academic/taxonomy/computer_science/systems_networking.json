@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Distributed Systems & Networking.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Systems & Networking.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "distributed_systems_networking",
+    "subfield_name": "Distributed Consensus, Cloud Systems & High-Speed Networking",
+    "discipline": "Computer Science & AI",
+    "keywords": [
+      "distributed",
+      "cluster",
+      "latency",
+      "throughput",
+      "consensus",
+      "network",
+      "packet",
+      "routing",
+      "scalability",
+      "server",
+      "node",
+      "cloud",
+      "scheduling",
+      "concurrency"
+    ],
+    "authors": [
+      ["Lamport", "L."],
+      ["Dean", "J."],
+      ["Stoica", "I."],
+      ["Shenker", "S."],
+      ["Balakrishnan", "H."],
+      ["Castro", "M."]
+    ],
+    "journals": [
+      "ACM SIGCOMM Computer Communication Review",
+      "USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
+      "ACM Symposium on Operating Systems Principles (SOSP)",
+      "IEEE/ACM Transactions on Networking",
+      "IEEE Transactions on Parallel and Distributed Systems"
+    ],
+    "topics": [
+      "fault-tolerant state machine replication in multi-node clusters",
+      "tail-latency mitigation and weighted traffic load balancing",
+      "congestion control and scheduling in distributed cloud fabrics"
+    ]
+  }
+]

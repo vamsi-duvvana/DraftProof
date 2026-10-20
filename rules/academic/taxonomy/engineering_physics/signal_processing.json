@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Signal Processing & Communications.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Signal Processing.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "spectral_signal_processing",
+    "subfield_name": "Spectral Estimation, Wavelets & Compressed Sensing",
+    "discipline": "Engineering & Physics",
+    "keywords": [
+      "signal",
+      "frequency",
+      "spectrum",
+      "spectral",
+      "fourier",
+      "filter",
+      "noise",
+      "modulation",
+      "sampling",
+      "wavelet",
+      "harmonic",
+      "bandwidth",
+      "channel",
+      "impulse"
+    ],
+    "authors": [
+      ["Oppenheim", "A. V."],
+      ["Mallat", "S."],
+      ["Candes", "E. J."],
+      ["Donoho", "D. L."],
+      ["Kay", "S. M."],
+      ["Vetterli", "M."]
+    ],
+    "journals": [
+      "IEEE Transactions on Signal Processing",
+      "IEEE Transactions on Information Theory",
+      "Signal Processing",
+      "IEEE Journal of Selected Topics in Signal Processing",
+      "IEEE Transactions on Communications"
+    ],
+    "topics": [
+      "sparse signal recovery and compressed sensing under noisy channels",
+      "time-frequency wavelet decomposition of non-stationary waveforms",
+      "adaptive Kalman filtering and spectral density estimation"
+    ]
+  }
+]

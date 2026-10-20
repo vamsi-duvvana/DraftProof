@@ -1,0 +1,25 @@
+[
+  {
+    "__prompt__": "Role: Conversational Voice Editor.\nTask: Provide natural everyday hedging adverbs that add human cadence without sounding robotic.\nNegative Prompting:\n- Do NOT include overly academic Latinate adverbs."
+  },
+  "likely",
+  "probably",
+  "generally",
+  "typically",
+  "usually",
+  "mostly",
+  "often",
+  "frankly",
+  "admittedly",
+  "arguably",
+  "clearly",
+  "naturally",
+  "honestly",
+  "apparently",
+  "seemingly",
+  "practically",
+  "effectively",
+  "basically",
+  "essentially",
+  "realistically"
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Cybersecurity & Cryptography.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Cybersecurity.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "cryptography_network_security",
+    "subfield_name": "Applied Cryptography & Intrusion Detection",
+    "discipline": "Computer Science & AI",
+    "keywords": [
+      "security",
+      "encryption",
+      "cryptographic",
+      "vulnerability",
+      "attack",
+      "authentication",
+      "protocol",
+      "adversarial",
+      "intrusion",
+      "malware",
+      "cipher",
+      "privacy",
+      "hash",
+      "signature"
+    ],
+    "authors": [
+      ["Boneh", "D."],
+      ["Bellare", "M."],
+      ["Rogaway", "P."],
+      ["Shamir", "A."],
+      ["Goldwasser", "S."],
+      ["Paxson", "V."]
+    ],
+    "journals": [
+      "IEEE Symposium on Security and Privacy",
+      "ACM Conference on Computer and Communications Security (CCS)",
+      "USENIX Security Symposium",
+      "IEEE Transactions on Information Forensics and Security",
+      "Journal of Cryptology"
+    ],
+    "topics": [
+      "provable security bounds for cryptographic hash primitives",
+      "anomaly-based intrusion detection in distributed enterprise networks",
+      "adversarial robustness and zero-knowledge authentication protocols"
+    ]
+  }
+]

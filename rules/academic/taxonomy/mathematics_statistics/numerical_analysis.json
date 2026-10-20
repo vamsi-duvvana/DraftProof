@@ -1,0 +1,47 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Numerical Analysis & Scientific Computing.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Numerical Analysis.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "numerical_methods_scientific_computing",
+    "subfield_name": "Finite Difference Schemes, Stability & Convergence Analysis",
+    "discipline": "Mathematics & Statistics",
+    "keywords": [
+      "numerical",
+      "finite",
+      "difference",
+      "convergence",
+      "stability",
+      "truncation",
+      "error",
+      "discretization",
+      "mesh",
+      "grid",
+      "iterative",
+      "matrix",
+      "implicit",
+      "explicit",
+      "approximation"
+    ],
+    "authors": [
+      ["Trefethen", "L. N."],
+      ["Strang", "G."],
+      ["LeVeque", "R. J."],
+      ["Quarteroni", "A."],
+      ["Saad", "Y."],
+      ["Golub", "G. H."]
+    ],
+    "journals": [
+      "SIAM Journal on Numerical Analysis",
+      "Numerische Mathematik",
+      "Mathematics of Computation",
+      "SIAM Journal on Scientific Computing",
+      "Applied Numerical Mathematics"
+    ],
+    "topics": [
+      "von Neumann stability and local truncation error in Crank-Nicolson schemes",
+      "preconditioned Krylov subspace solvers for sparse linear systems",
+      "second-order spatial discretization and adaptive time-stepping convergence"
+    ]
+  }
+]

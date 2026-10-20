@@ -1,0 +1,15 @@
+{
+  "__prompt__": "Role: Conversational Syntactic Variator.\nTask: Define natural determiner and quantifier replacements for everyday prose.\nNegative Prompting:\n- Avoid stiff legalistic terms like 'aforementioned' or 'said'.",
+  "several": ["a few", "multiple", "a handful of"],
+  "many": ["plenty of", "numerous", "a lot of"],
+  "some": ["certain", "a few", "particular"],
+  "few": ["not many", "only a few", "a small number of"],
+  "most": ["nearly all", "the majority of", "most of the"],
+  "all": ["every", "the full set of"],
+  "each": ["every", "every single"],
+  "every": ["each", "every single"],
+  "both": ["the two", "each of the two"],
+  "another": ["one more", "an extra", "a further"],
+  "other": ["different", "extra", "additional"],
+  "various": ["different", "several", "assorted"]
+}

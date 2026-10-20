@@ -1,0 +1,17 @@
+{
+  "__prompt__": "Role: Syntactic Variator.\nTask: Define academic determiner and quantifier replacements that break k=5 word windows while preserving grammatical number agreement.\nNegative Prompting:\n- Do NOT map singular determiners to plural phrases.",
+  "several": ["numerous", "a number of", "multiple", "sundry"],
+  "many": ["numerous", "a considerable number of", "myriad", "copious"],
+  "some": ["certain", "particular", "select", "assorted"],
+  "few": ["a limited number of", "a scant handful of", "sparse"],
+  "most": ["the majority of", "the preponderance of", "the greater part of"],
+  "all": ["every", "the entirety of", "the totality of"],
+  "each": ["every", "any given", "every individual", "each respective"],
+  "every": ["each", "any given", "every single"],
+  "both": ["the two", "each of the two", "the pair of"],
+  "any": ["whichever", "any given", "an arbitrary"],
+  "another": ["an additional", "a further", "a supplementary"],
+  "such": ["the specified", "the given", "the noted"],
+  "other": ["alternative", "additional", "further", "supplementary"],
+  "various": ["diverse", "manifold", "assorted", "distinct"]
+}

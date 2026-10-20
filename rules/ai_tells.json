@@ -1,0 +1,355 @@
+{
+  "__prompt__": "Role: AI Footprint & Tell Forensics Engineer.\nTask: Maintain the complete 38-pattern AI tell scrubber catalog (blader/humanizer §1-§26 + DraftProof §27-§38), forbidden AI output vocabulary, zero-width watermark Unicode codepoints, and BERT classifier triggers.\nNegative Prompting (Strict Alignment):\n- Never map an AI tell to another AI cliché.\n- Preserve factual content while eliminating empty chatbot meta-commentary and inflated copulas.",
+  "zero_width_codepoints": [
+    "\u200b",
+    "\u200c",
+    "\u200d",
+    "\u2060",
+    "\ufeff",
+    "\u00ad",
+    "\u180e",
+    "\u200e",
+    "\u200f",
+    "\u202a",
+    "\u202b",
+    "\u202c",
+    "\u202d",
+    "\u202e",
+    "\u2061",
+    "\u2062",
+    "\u2063",
+    "\u2064"
+  ],
+  "homoglyph_map": {
+    "\u0430": "a",
+    "\u0435": "e",
+    "\u043e": "o",
+    "\u0440": "p",
+    "\u0441": "c",
+    "\u0445": "x",
+    "\u0443": "y",
+    "\u0410": "A",
+    "\u0415": "E",
+    "\u041e": "O",
+    "\u0420": "P",
+    "\u0421": "C",
+    "\u0425": "X",
+    "\u00a0": " ",
+    "\u202f": " ",
+    "\u2009": " ",
+    "\u2018": "'",
+    "\u2019": "'",
+    "\u201c": "\"",
+    "\u201d": "\""
+  },
+  "forbidden_output_vocab": [
+    "delve",
+    "delves",
+    "delved",
+    "delving",
+    "tapestry",
+    "testament",
+    "pivotal",
+    "foster",
+    "fosters",
+    "fostering",
+    "fostered",
+    "bolster",
+    "bolsters",
+    "bolstering",
+    "bolstered",
+    "underscore",
+    "underscores",
+    "underscoring",
+    "underscored",
+    "multifaceted",
+    "interplay",
+    "realm",
+    "beacon",
+    "crucible",
+    "unleash",
+    "unlock",
+    "harness",
+    "symphony",
+    "kaleidoscope",
+    "labyrinth",
+    "cornerstone",
+    "linchpin",
+    "game-changer",
+    "trailblazing",
+    "groundbreaking"
+  ],
+  "chatbot_residue_patterns": [
+    "^(?:Certainly!|Sure!|Absolutely!|Of course!|Great question!)\\s*(?:Here(?:'s| is) [^.:!]+[.:!]\\s*)?",
+    "^(?:Here is|Here's) (?:a|an|the) (?:comprehensive|detailed|revised|rewritten|humanized|summary|overview)[^.:!]*[.:!]\\s*",
+    "\\s*(?:I hope this helps!|Hope this helps!|Let me know if you(?: would|'d) like[^.!]*[.!]|Feel free to ask[^.!]*[.!]|Please let me know if you need any further adjustments[.!])$"
+  ],
+  "tell_patterns": [
+    {
+      "id": "T01",
+      "category": "Inflated Significance & Legacy (§1)",
+      "pattern": "\\bstands as a testament to\\b",
+      "academic": "demonstrates",
+      "conversational": "reflects"
+    },
+    {
+      "id": "T02",
+      "category": "Inflated Significance & Legacy (§1)",
+      "pattern": "\\bserves as a testament to\\b",
+      "academic": "attests to",
+      "conversational": "shows"
+    },
+    {
+      "id": "T03",
+      "category": "Inflated Significance & Legacy (§1)",
+      "pattern": "\\bplays a (?:pivotal|crucial|vital|paramount) role in illustrating\\b",
+      "academic": "substantiates",
+      "conversational": "clearly shows"
+    },
+    {
+      "id": "T04",
+      "category": "Inflated Significance & Legacy (§1)",
+      "pattern": "\\bplays a (?:pivotal|crucial|vital) role in\\b",
+      "academic": "contributes substantially to",
+      "conversational": "is key to"
+    },
+    {
+      "id": "T05",
+      "category": "Inflated Significance & Legacy (§1)",
+      "pattern": "\\bplays a (?:pivotal|crucial|vital) role\\b",
+      "academic": "holds primary importance",
+      "conversational": "is essential"
+    },
+    {
+      "id": "T06",
+      "category": "AI Vocabulary Cliché (§2)",
+      "pattern": "\\bit is important to delve into\\b",
+      "academic": "we examine closely",
+      "conversational": "we look closely at"
+    },
+    {
+      "id": "T07",
+      "category": "AI Vocabulary Cliché (§2)",
+      "pattern": "\\bdelve deep into the multifaceted dimensions of\\b",
+      "academic": "analyze the specific aspects of",
+      "conversational": "examine the details of"
+    },
+    {
+      "id": "T08",
+      "category": "AI Vocabulary Cliché (§2)",
+      "pattern": "\\bdelve(?:s|d)? (?:deep |deeper )?into\\b",
+      "academic": "investigate",
+      "conversational": "explore"
+    },
+    {
+      "id": "T09",
+      "category": "AI Vocabulary Cliché (§2)",
+      "pattern": "\\bdelving (?:deep |deeper )?into\\b",
+      "academic": "investigating",
+      "conversational": "exploring"
+    },
+    {
+      "id": "T10",
+      "category": "Figurative Metaphor Overuse (§3)",
+      "pattern": "\\b(?:comprehensive|rich|intricate|vibrant) tapestry of\\b",
+      "academic": "diverse array of",
+      "conversational": "broad range of"
+    },
+    {
+      "id": "T11",
+      "category": "Figurative Metaphor Overuse (§3)",
+      "pattern": "\\btapestry of\\b",
+      "academic": "collection of",
+      "conversational": "mix of"
+    },
+    {
+      "id": "T12",
+      "category": "BERT Academic Trigger (§4)",
+      "pattern": "\\bprovides a robust framework for\\b",
+      "academic": "establishes a structured basis for",
+      "conversational": "gives a solid basis for"
+    },
+    {
+      "id": "T13",
+      "category": "BERT Academic Trigger (§4)",
+      "pattern": "\\bprovides a robust framework\\b",
+      "academic": "establishes a sound methodology",
+      "conversational": "gives a solid basis"
+    },
+    {
+      "id": "T14",
+      "category": "BERT Academic Trigger (§4)",
+      "pattern": "\\bFurthermore,\\s*the interplay between\\b",
+      "academic": "In addition, the interaction linking",
+      "conversational": "Also, balancing"
+    },
+    {
+      "id": "T15",
+      "category": "BERT Academic Trigger (§4)",
+      "pattern": "\\bthe (?:intricate |complex )?interplay between\\b",
+      "academic": "the interaction between",
+      "conversational": "how"
+    },
+    {
+      "id": "T16",
+      "category": "Empty Copula Avoidance (§5)",
+      "pattern": "\\bserves as a critical milestone\\b",
+      "academic": "marks a major transition",
+      "conversational": "is a major turning point"
+    },
+    {
+      "id": "T17",
+      "category": "Empty Copula Avoidance (§5)",
+      "pattern": "\\bserves as (?:a|an)\\b",
+      "academic": "functions as a",
+      "conversational": "is a"
+    },
+    {
+      "id": "T18",
+      "category": "Empty Copula Avoidance (§5)",
+      "pattern": "\\bstands as (?:a|an)\\b",
+      "academic": "constitutes a",
+      "conversational": "is a"
+    },
+    {
+      "id": "T19",
+      "category": "Formulaic Time Preambles (§6)",
+      "pattern": "\\b(?:Moreover,\\s*)?in today's fast-paced (?:digital )?(?:era|world|landscape),?\\b",
+      "academic": "In contemporary practice,",
+      "conversational": "Today,"
+    },
+    {
+      "id": "T20",
+      "category": "Formulaic Time Preambles (§6)",
+      "pattern": "\\bin the ever-evolving landscape of\\b",
+      "academic": "within current developments in",
+      "conversational": "in modern"
+    },
+    {
+      "id": "T21",
+      "category": "Hyperbolic Emphasis (§8)",
+      "pattern": "\\bcannot be (?:overlooked|overstated)\\b",
+      "academic": "warrants careful attention",
+      "conversational": "matters greatly"
+    },
+    {
+      "id": "T22",
+      "category": "Meta-Commentary Run-Up (§9)",
+      "pattern": "\\bit is (?:important|worth|crucial|essential) to note that\\b",
+      "academic": "notably,",
+      "conversational": "note that"
+    },
+    {
+      "id": "T23",
+      "category": "Meta-Commentary Run-Up (§9)",
+      "pattern": "\\bit is worth noting that\\b",
+      "academic": "importantly,",
+      "conversational": "notably,"
+    },
+    {
+      "id": "T24",
+      "category": "Meta-Commentary Run-Up (§9)",
+      "pattern": "\\bit should be noted that\\b",
+      "academic": "specifically,",
+      "conversational": "notably,"
+    },
+    {
+      "id": "T25",
+      "category": "Formulaic Summary Closer (§10)",
+      "pattern": "\\bIn conclusion,\\s*it is (?:clear|evident|important) that\\b",
+      "academic": "Collectively, the evidence indicates that",
+      "conversational": "To wrap up,"
+    },
+    {
+      "id": "T26",
+      "category": "Formulaic Summary Closer (§10)",
+      "pattern": "\\bIn conclusion,\\b",
+      "academic": "In summary,",
+      "conversational": "To wrap up,"
+    },
+    {
+      "id": "T27",
+      "category": "Formulaic Summary Closer (§10)",
+      "pattern": "\\bUltimately,\\s*this paradigm shift\\b",
+      "academic": "Consequently, this structural transition",
+      "conversational": "In the end, this shift"
+    },
+    {
+      "id": "T28",
+      "category": "Overused AI Buzzwords (§11)",
+      "pattern": "\\bparadigm shift\\b",
+      "academic": "fundamental transition",
+      "conversational": "major shift"
+    },
+    {
+      "id": "T29",
+      "category": "Overused AI Buzzwords (§12)",
+      "pattern": "\\bunderscores the importance of\\b",
+      "academic": "highlights the necessity of",
+      "conversational": "shows why we need"
+    },
+    {
+      "id": "T30",
+      "category": "Overused AI Buzzwords (§13)",
+      "pattern": "\\bunderscore(?:s|d)?\\b",
+      "academic": "emphasize",
+      "conversational": "highlight"
+    },
+    {
+      "id": "T31",
+      "category": "Overused AI Buzzwords (§14)",
+      "pattern": "\\bfoster(?:s|ed|ing)?\\b",
+      "academic": "cultivate",
+      "conversational": "build"
+    },
+    {
+      "id": "T32",
+      "category": "Overused AI Buzzwords (§15)",
+      "pattern": "\\bbolster(?:s|ed|ing)?\\b",
+      "academic": "reinforce",
+      "conversational": "strengthen"
+    },
+    {
+      "id": "T33",
+      "category": "Overused AI Buzzwords (§16)",
+      "pattern": "\\bharness(?:es|ed|ing)? the power of\\b",
+      "academic": "utilize",
+      "conversational": "use"
+    },
+    {
+      "id": "T34",
+      "category": "Overused AI Buzzwords (§17)",
+      "pattern": "\\bunlock(?:s|ed|ing)? the (?:full )?potential of\\b",
+      "academic": "maximize the utility of",
+      "conversational": "get the most out of"
+    },
+    {
+      "id": "T35",
+      "category": "Overused AI Buzzwords (§18)",
+      "pattern": "\\bnavigate the (?:complexities|complex landscape) of\\b",
+      "academic": "address the challenges within",
+      "conversational": "handle"
+    },
+    {
+      "id": "T36",
+      "category": "Overused AI Buzzwords (§19)",
+      "pattern": "\\bmultifaceted\\b",
+      "academic": "multi-dimensional",
+      "conversational": "complex"
+    },
+    {
+      "id": "T37",
+      "category": "Conceptual Bridge Tell (§20)",
+      "pattern": "\\b(?:against this backdrop|viewed through this lens),?\\b",
+      "academic": "In this context,",
+      "conversational": "With that in mind,"
+    },
+    {
+      "id": "T38",
+      "category": "Superficial Participial Tail (§21)",
+      "pattern": ",\\s*thereby underscoring the need for\\b",
+      "academic": "and indicating the requirement for",
+      "conversational": "which shows we need"
+    }
+  ]
+}

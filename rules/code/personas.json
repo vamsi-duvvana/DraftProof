@@ -1,0 +1,94 @@
+{
+  "__prompt__": "Role: Software Engineering Code Comment & Docstring Stylist.\nTask: Define vocabulary and phrase transformations for the three Developer Skill Personas (Beginner, Intermediate, Senior Architect) and AI boilerplate comment scrubbers.\nNegative Prompting (Strict Alignment):\n- Never include rules that alter code tokens or identifiers.\n- Ensure Beginner uses casual dev phrasing, Intermediate uses clean pragmatic engineering English, and Senior Architect uses concise systems/architectural terminology.",
+  "boilerplate_patterns": [
+    "^\\s*(?:This function|This method|This class|Here we|The following code)\\s+(?:is used to|will|simply)\\s+",
+    "^\\s*Note that we\\s+",
+    "^\\s*End of (?:function|loop|class|method|file).*$"
+  ],
+  "personas": {
+    "beginner": {
+      "label": "Beginner Developer",
+      "description": "Casual, straightforward everyday developer phrasing ('finds', 'sets up', 'loops through').",
+      "phrase_map": [
+        ["\\binitializes\\b", "sets up"],
+        ["\\binitialize\\b", "set up"],
+        ["\\binstantiates\\b", "creates"],
+        ["\\binstantiate\\b", "create"],
+        ["\\bevaluates\\b", "checks"],
+        ["\\bevaluate\\b", "check"],
+        ["\\bcomputes\\b", "finds"],
+        ["\\bcompute\\b", "find"],
+        ["\\biterates over\\b", "loops through"],
+        ["\\biterate over\\b", "loop through"],
+        ["\\biterates through\\b", "loops through"],
+        ["\\bterminates\\b", "stops"],
+        ["\\bterminate\\b", "stop"],
+        ["\\bretrieves\\b", "gets"],
+        ["\\bretrieve\\b", "get"],
+        ["\\bconstructs\\b", "builds"],
+        ["\\bconstruct\\b", "build"],
+        ["\\bvalidates\\b", "makes sure"],
+        ["\\bvalidate\\b", "make sure"],
+        ["\\bparameters\\b", "inputs"],
+        ["\\bconfiguration\\b", "settings"],
+        ["\\bdecomposition\\b", "breakdown"],
+        ["\\bsubsequently\\b", "next"],
+        ["\\butilizes\\b", "uses"],
+        ["\\butilize\\b", "use"],
+        ["\\bperforms\\b", "does"],
+        ["\\bperform\\b", "do"]
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate Developer",
+      "description": "Clean, pragmatic working software engineering English.",
+      "phrase_map": [
+        ["\\bsets up\\b", "configures"],
+        ["\\bset up\\b", "configure"],
+        ["\\blooks at\\b", "inspects"],
+        ["\\blook at\\b", "inspect"],
+        ["\\bmakes sure\\b", "verifies"],
+        ["\\bmake sure\\b", "verify"],
+        ["\\bloops over\\b", "processes"],
+        ["\\bloop over\\b", "process"],
+        ["\\bgets\\b", "fetches"],
+        ["\\bget\\b", "fetch"],
+        ["\\bcalculates\\b", "computes"],
+        ["\\bcalculate\\b", "compute"],
+        ["\\butilizes\\b", "uses"],
+        ["\\butilize\\b", "use"],
+        ["\\bin order to\\b", "to"],
+        ["\\bdue to the fact that\\b", "because"]
+      ]
+    },
+    "senior": {
+      "label": "Senior Architect / Expert",
+      "description": "Concise, formal systems architecture and algorithmic terminology.",
+      "phrase_map": [
+        ["\\bsets up\\b", "initializes"],
+        ["\\bset up\\b", "initialize"],
+        ["\\bcreates\\b", "instantiates"],
+        ["\\bcreate\\b", "instantiate"],
+        ["\\bchecks\\b", "evaluates"],
+        ["\\bcheck\\b", "evaluate"],
+        ["\\bfinds\\b", "resolves"],
+        ["\\bfind\\b", "resolve"],
+        ["\\bgets\\b", "retrieves"],
+        ["\\bget\\b", "retrieve"],
+        ["\\bbuilds\\b", "constructs"],
+        ["\\bbuild\\b", "construct"],
+        ["\\bloops through\\b", "traverses"],
+        ["\\bloop through\\b", "traverse"],
+        ["\\bbreakdown\\b", "spectral decomposition"],
+        ["\\bsettings\\b", "runtime configuration"],
+        ["\\binputs\\b", "invocation parameters"],
+        ["\\bmakes sure\\b", "enforces invariant that"],
+        ["\\bmake sure\\b", "enforce invariant that"],
+        ["\\bsaves\\b", "persists"],
+        ["\\bsave\\b", "persist"],
+        ["\\bsends\\b", "dispatches"],
+        ["\\bsend\\b", "dispatch"]
+      ]
+    }
+  }
+}

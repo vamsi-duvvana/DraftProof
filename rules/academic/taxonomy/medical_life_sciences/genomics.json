@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Genomics & Statistical Genetics.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Genomics.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "statistical_genomics_transcriptomics",
+    "subfield_name": "Single-Cell Transcriptomics, GWAS & Epigenetic Regulation",
+    "discipline": "Medical & Life Sciences",
+    "keywords": [
+      "genome",
+      "genomic",
+      "gene",
+      "genetic",
+      "expression",
+      "transcription",
+      "rna",
+      "dna",
+      "mutation",
+      "variant",
+      "allele",
+      "chromatin",
+      "sequencing",
+      "phenotype"
+    ],
+    "authors": [
+      ["Lander", "E. S."],
+      ["Venter", "J. C."],
+      ["Pritchard", "J. K."],
+      ["Love", "M. I."],
+      ["Huber", "W."],
+      ["Regev", "A."]
+    ],
+    "journals": [
+      "Nature Genetics",
+      "Genome Research",
+      "Genome Biology",
+      "American Journal of Human Genetics",
+      "Cell Systems"
+    ],
+    "topics": [
+      "differential gene expression modeling in single-cell RNA-seq atlases",
+      "polygenic risk score estimation across genome-wide association cohorts",
+      "epigenetic chromatin accessibility and cis-regulatory element mapping"
+    ]
+  }
+]

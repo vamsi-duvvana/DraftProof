@@ -1,0 +1,32 @@
+[
+  {
+    "__prompt__": "Role: Syntactic Parser & Clause Topology Engineer.\nTask: Maintain subordinating conjunctions and multi-word connective triggers used to identify subordinate clauses that can be safely moved to the front or end of sentences.\nNegative Prompting (Strict Alignment):\n- Do NOT include coordinating conjunctions ('and', 'or', 'but') that join non-clause noun lists.\n- Ensure every entry introduces a dependent clause."
+  },
+  "because",
+  "although",
+  "since",
+  "while",
+  "whereas",
+  "unless",
+  "whenever",
+  "wherever",
+  "even though",
+  "even if",
+  "once",
+  "consequently",
+  "provided that",
+  "given that",
+  "assuming that",
+  "inasmuch as",
+  "insofar as",
+  "notwithstanding",
+  "on condition that",
+  "so long as",
+  "in the event that",
+  "for the reason that",
+  "on the grounds that",
+  "in light of the fact that",
+  "considering that",
+  "granted that",
+  "supposing that"
+]

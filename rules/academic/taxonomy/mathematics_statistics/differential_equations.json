@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Partial Differential Equations & Applied Mathematics.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Differential Equations.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "partial_differential_equations",
+    "subfield_name": "Parabolic, Elliptic & Hyperbolic Partial Differential Equations",
+    "discipline": "Mathematics & Statistics",
+    "keywords": [
+      "equation",
+      "differential",
+      "derivative",
+      "partial",
+      "parabolic",
+      "elliptic",
+      "hyperbolic",
+      "eigenvalue",
+      "operator",
+      "domain",
+      "solution",
+      "initial",
+      "cauchy",
+      "sobolev"
+    ],
+    "authors": [
+      ["Evans", "L. C."],
+      ["Lax", "P. D."],
+      ["Gilbarg", "D."],
+      ["Trudinger", "N. S."],
+      ["Brezis", "H."],
+      ["Lions", "J. L."]
+    ],
+    "journals": [
+      "Communications on Pure and Applied Mathematics",
+      "SIAM Journal on Mathematical Analysis",
+      "Archive for Rational Mechanics and Analysis",
+      "Journal of Differential Equations",
+      "Transaction of the American Mathematical Society"
+    ],
+    "topics": [
+      "well-posedness and regularity of parabolic initial-boundary value problems",
+      "spectral asymptotic behavior of elliptic differential operators",
+      "weak formulation and Sobolev space embeddings for nonlinear PDEs"
+    ]
+  }
+]

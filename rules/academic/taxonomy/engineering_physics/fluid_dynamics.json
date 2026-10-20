@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Fluid Dynamics & Continuum Mechanics.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Fluid Dynamics.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "computational_fluid_dynamics",
+    "subfield_name": "Turbulence Modeling, Heat Transfer & Navier-Stokes Solvers",
+    "discipline": "Engineering & Physics",
+    "keywords": [
+      "fluid",
+      "flow",
+      "turbulence",
+      "viscosity",
+      "velocity",
+      "pressure",
+      "thermal",
+      "heat",
+      "convection",
+      "diffusion",
+      "vorticity",
+      "reynolds",
+      "boundary",
+      "laminar"
+    ],
+    "authors": [
+      ["Pope", "S. B."],
+      ["Moin", "P."],
+      ["Spalart", "P. R."],
+      ["Patankar", "S. V."],
+      ["Ferziger", "J. H."],
+      ["Schlichting", "H."]
+    ],
+    "journals": [
+      "Journal of Fluid Mechanics",
+      "Physics of Fluids",
+      "International Journal of Heat and Mass Transfer",
+      "Journal of Computational Physics",
+      "Computers & Fluids"
+    ],
+    "topics": [
+      "large-eddy simulation of high-Reynolds-number turbulent boundary layers",
+      "conjugate convective heat transfer and thermal diffusion schemes",
+      "pressure-velocity coupling in incompressible Navier-Stokes solvers"
+    ]
+  }
+]

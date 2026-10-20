@@ -1,0 +1,25 @@
+[
+  {
+    "__prompt__": "Role: Academic Syntax Editor.\nTask: Provide safe formal adverbs and qualifiers that can be inserted before adjectives or participles during post-pass n-gram auditing.\nNegative Prompting:\n- Do NOT include casual or colloquial intensifiers."
+  },
+  "notably",
+  "essentially",
+  "particularly",
+  "specifically",
+  "inherently",
+  "fundamentally",
+  "distinctly",
+  "predominantly",
+  "characteristically",
+  "correspondingly",
+  "markedly",
+  "appreciably",
+  "comparatively",
+  "relatably",
+  "measurably",
+  "substantively",
+  "systematically",
+  "empirically",
+  "analytically",
+  "quantitatively"
+]

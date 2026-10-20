@@ -1,0 +1,19 @@
+{
+  "__prompt__": "Role: PDTB 2.0 Discourse Connective Specialist.\nTask: Map over-indexed discourse markers to diverse Penn Discourse Treebank equivalents so no single transition marker is repeated across a document.\nNegative Prompting:\n- Preserve logical connective polarity (contrast, causal, additive, temporal).",
+  "However": ["Nevertheless", "Nonetheless", "On the other hand", "That said", "Even so"],
+  "Therefore": ["Consequently", "Hence", "As a result", "It follows that", "Accordingly"],
+  "Moreover": ["In addition", "Additionally", "What is more", "Beyond this", "Further"],
+  "Furthermore": ["Additionally", "In addition", "Beyond that", "Equally", "Further"],
+  "Although": ["Even though", "Despite the fact that", "Notwithstanding that", "While it holds that", "Granted that"],
+  "Thus": ["Hence", "Accordingly", "As such", "In this manner", "By this means"],
+  "Indeed": ["In fact", "Certainly", "As a matter of fact", "To be sure", "Unquestionably"],
+  "Similarly": ["Likewise", "In a similar manner", "Comparably", "By the same token", "Along these lines"],
+  "Specifically": ["In particular", "More precisely", "To be specific", "Namely", "In detail"],
+  "Notably": ["Remarkably", "Significantly", "Importantly", "Strikingly", "Conspicuously"],
+  "Meanwhile": ["In the interim", "Concurrently", "At the same time", "Simultaneously", "During this period"],
+  "Conversely": ["On the contrary", "In contrast", "By contrast", "Contrastingly", "Opposite to this"],
+  "Ultimately": ["In the final analysis", "When all is considered", "In the last analysis", "Eventually"],
+  "Evidently": ["Apparently", "As it turns out", "It appears that", "Seemingly", "Ostensibly"],
+  "Essentially": ["Fundamentally", "At its core", "In essence", "Principally", "In substance"],
+  "Typically": ["Generally", "Ordinarily", "As a rule", "In most cases", "Under normal circumstances"]
+}

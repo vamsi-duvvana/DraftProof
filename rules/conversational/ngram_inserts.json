@@ -1,0 +1,15 @@
+[
+  {
+    "__prompt__": "Role: Conversational Window Disruptor.\nTask: Provide brief parenthetical insertions for breaking residual 5-gram chains in conversational prose.\nNegative Prompting:\n- Avoid academic jargon."
+  },
+  "in fact",
+  "in practice",
+  "for example",
+  "in reality",
+  "to be clear",
+  "at the same time",
+  "in short",
+  "by comparison",
+  "in most cases",
+  "as it stands"
+]

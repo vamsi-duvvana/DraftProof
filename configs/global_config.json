@@ -1,0 +1,81 @@
+{
+  "__prompt__": "Role: System Architect & Configuration Controller.\nTask: Define centralized global configuration, intensity curve parameters, safety gate invariants, traffic balancing, VIP whitelist, and UI feature flags.\nNegative Prompting:\n- Do NOT split sub-feature configs into scattered root JSON files.",
+  "version": "2.0.0",
+  "default_style_preset": "conversational",
+  "default_intensity": 75,
+  "intensity_curve_exponent": 0.75,
+  "fifo_memory_size": 15,
+  "determiner_memory_size": 8,
+  "structural_diversity_min_chars": 60,
+  "structural_diversity_min_transforms": 2,
+  "winnowing": {
+    "k_gram_size": 5,
+    "window_size": 4,
+    "hash_base": 257,
+    "hash_mod": 1000000007,
+    "cluster_min_matches": 2
+  },
+  "detector_weights": {
+    "compression_perplexity": 0.25,
+    "burstiness": 0.25,
+    "ai_tells": 0.25,
+    "lexical_diversity": 0.15,
+    "stylometric_uniformity": 0.10
+  },
+  "stage_defaults": {
+    "enable_ai_tell_scrubber": true,
+    "enable_zero_width_purge": true,
+    "enable_watermark_disrupt": true,
+    "enable_c2pa_strip": true,
+    "enable_tell_invariant_gate": true,
+    "enable_fact_invariant_gate": true,
+    "enable_phrase_rewrites": true,
+    "enable_synonym_swap": true,
+    "enable_clause_reorder": true,
+    "enable_determiner_swap": true,
+    "enable_sentence_split": true,
+    "enable_hedge_inject": true,
+    "enable_ngram_audit": true,
+    "enable_voice_transform": true,
+    "enable_sentence_fusion": true,
+    "enable_transition_inject": true,
+    "enable_word_reorder": true,
+    "enable_nominalization": true,
+    "enable_appositive": false,
+    "enable_discourse_rotate": true,
+    "enable_subject_coordination": true,
+    "voice_transform_rate": 0.30,
+    "sentence_fusion_rate": 0.25,
+    "transition_inject_rate": 0.25,
+    "word_reorder_rate": 0.20,
+    "nominalization_rate": 0.20,
+    "appositive_rate": 0.35,
+    "discourse_rotate_rate": 0.50,
+    "subject_coordination_rate": 0.35
+  },
+  "ui_flags": {
+    "show_ai_detection_in_remover": true,
+    "show_ai_checker_tab": true,
+    "show_visual_diff": true,
+    "show_voice_matcher": true,
+    "show_watermark_lab": true,
+    "require_github_gate": false
+  },
+  "whitelisted_users": [
+    "octocat",
+    "vip_user_k8x9m2",
+    "local_developer"
+  ],
+  "traffic_balancing": {
+    "enable_offload": false,
+    "offload_percentage": 85,
+    "worker_nodes": [
+      "https://draftproof1.streamlit.app/",
+      "https://draftproof2.streamlit.app/",
+      "https://draftproof3.streamlit.app/",
+      "https://draftproof4.streamlit.app/",
+      "https://draftproof5.streamlit.app/",
+      "https://draftproof6.streamlit.app/"
+    ]
+  }
+}

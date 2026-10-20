@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Bioinformatics & Computational Biology.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Bioinformatics.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "computational_biology_proteomics",
+    "subfield_name": "Sequence Alignment, Protein Folding & Structural Bioinformatics",
+    "discipline": "Medical & Life Sciences",
+    "keywords": [
+      "protein",
+      "sequence",
+      "alignment",
+      "molecular",
+      "peptide",
+      "receptor",
+      "binding",
+      "pathway",
+      "cellular",
+      "clinical",
+      "biomarker",
+      "diagnostic",
+      "metabolic",
+      "enzyme"
+    ],
+    "authors": [
+      ["Altschul", "S. F."],
+      ["Durbin", "R."],
+      ["Eddy", "S. R."],
+      ["Krogh", "A."],
+      ["Bairoch", "A."],
+      ["Jumper", "J."]
+    ],
+    "journals": [
+      "Bioinformatics",
+      "Nature Biotechnology",
+      "Nucleic Acids Research",
+      "PLOS Computational Biology",
+      "Journal of Molecular Biology"
+    ],
+    "topics": [
+      "hidden Markov profile alignment and homology search in proteome databases",
+      "conformational free-energy landscapes in macromolecular ligand docking",
+      "multi-omics biomarker discovery and regulatory network reconstruction"
+    ]
+  }
+]

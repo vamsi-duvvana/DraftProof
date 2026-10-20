@@ -1,0 +1,59 @@
+{
+  "__prompt__": "Role: Academic Discourse Architect.\nTask: Maintain categorized transition phrases (Addition, Contrast, Cause/Effect, Clarification, Sequence, Emphasis, Concession) to increase sentence entropy and disrupt k-gram boundaries.\nNegative Prompting:\n- Avoid overused LLM cliché transitions.",
+  "addition": [
+    "In addition,",
+    "Additionally,",
+    "Also of note,",
+    "Equally important,",
+    "By the same token,",
+    "Coupled with this,",
+    "Along similar lines,"
+  ],
+  "contrast": [
+    "Conversely,",
+    "On the other hand,",
+    "In contrast,",
+    "By comparison,",
+    "Paradoxically,",
+    "Counterintuitively,"
+  ],
+  "cause_effect": [
+    "Consequently,",
+    "As a result,",
+    "Accordingly,",
+    "For this reason,",
+    "On account of this,",
+    "Hence,"
+  ],
+  "clarification": [
+    "In other words,",
+    "That is to say,",
+    "Specifically,",
+    "To clarify,",
+    "Put differently,",
+    "Stated another way,"
+  ],
+  "sequence": [
+    "Subsequently,",
+    "Following this,",
+    "In the next stage,",
+    "Thereafter,",
+    "In turn,",
+    "Proceeding further,"
+  ],
+  "emphasis": [
+    "Indeed,",
+    "In fact,",
+    "Notably,",
+    "Remarkably,",
+    "Crucially,",
+    "Significantly,"
+  ],
+  "concession": [
+    "Admittedly,",
+    "Granted,",
+    "To be sure,",
+    "It must be acknowledged that",
+    "Notwithstanding this,"
+  ]
+}

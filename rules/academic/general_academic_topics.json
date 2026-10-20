@@ -1,0 +1,31 @@
+[
+  {
+    "__prompt__": "Role: General Academic Bibliographer.\nTask: Provide fallback multidisciplinary research topics, author pools, and scholarly journals when a sentence does not match a specialized discipline taxonomy.\nNegative Prompting:\n- Do NOT include non-peer-reviewed venues."
+  },
+  {
+    "subfield_id": "general_research_methodology",
+    "subfield_name": "Empirical Research & Quantitative Methodology",
+    "keywords": ["analysis", "method", "study", "result", "model", "data", "system", "approach", "experiment", "evaluation"],
+    "authors": [
+      ["Anderson", "R. K."],
+      ["mitchell", "T. M."],
+      ["Hastie", "T."],
+      ["Tibshirani", "R."],
+      ["Gelman", "A."],
+      ["Box", "G. E. P."]
+    ],
+    "journals": [
+      "Journal of Applied Research and Methodology",
+      "Proceedings of the National Academy of Sciences",
+      "Nature Communications",
+      "Scientific Reports",
+      "IEEE Access"
+    ],
+    "title_templates": [
+      "Quantitative evaluation of {topic} in empirical systems",
+      "Methodological advances in {topic} and structural validation",
+      "Comparative analysis of {topic} under varying operational constraints",
+      "Statistical characterization and modeling of {topic}"
+    ]
+  }
+]

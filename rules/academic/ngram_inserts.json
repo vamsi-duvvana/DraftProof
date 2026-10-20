@@ -1,0 +1,19 @@
+[
+  {
+    "__prompt__": "Role: Lexical Window Disruptor.\nTask: Provide parenthetical academic insertions used by the Source-Aware N-gram Audit pass to break residual 5-gram matches.\nNegative Prompting:\n- Keep insertions brief and universally compatible with scholarly sentences."
+  },
+  "specifically",
+  "in particular",
+  "in essence",
+  "for instance",
+  "in practice",
+  "by extension",
+  "in principle",
+  "upon inspection",
+  "in effect",
+  "by comparison",
+  "to be precise",
+  "in this context",
+  "under scrutiny",
+  "in general"
+]

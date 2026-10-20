@@ -1,0 +1,19 @@
+{
+  "__prompt__": "Role: Conversational PDTB Connective Rotator.\nTask: Map overused formal discourse markers to natural conversational equivalents.\nNegative Prompting:\n- Never repeat the same replacement in a single pass.",
+  "However": ["Still", "Even so", "That said", "On the other hand", "Yet"],
+  "Therefore": ["So", "As a result", "Because of this", "For that reason", "Consequently"],
+  "Moreover": ["Also", "Plus", "Beyond that", "On top of that", "In addition"],
+  "Furthermore": ["Also", "Plus", "In addition", "What's more", "Beyond that"],
+  "Although": ["Even though", "While", "Despite the fact that", "Granted that"],
+  "Thus": ["So", "In this way", "As a result", "From this"],
+  "Indeed": ["In fact", "Certainly", "To be sure", "Clearly"],
+  "Similarly": ["Likewise", "In the same way", "Along those lines", "Similarly enough"],
+  "Specifically": ["In particular", "More specifically", "Namely", "To be specific"],
+  "Notably": ["Importantly", "Significantly", "In particular", "Remarkably"],
+  "Meanwhile": ["At the same time", "In the meantime", "During this time", "Alongside this"],
+  "Conversely": ["On the flip side", "By contrast", "In contrast", "The other way around"],
+  "Ultimately": ["In the end", "At the end of the day", "When all is said and done", "Finally"],
+  "Evidently": ["Clearly", "As it turns out", "Apparently", "It seems that"],
+  "Essentially": ["Basically", "At its core", "In short", "At heart"],
+  "Typically": ["Usually", "Generally", "In most cases", "Normally"]
+}

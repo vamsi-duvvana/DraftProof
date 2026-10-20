@@ -1,0 +1,48 @@
+{
+  "__prompt__": "Role: Conversational Discourse Architect.\nTask: Provide natural transition phrases across logical categories for everyday writing.\nNegative Prompting:\n- Avoid stiff academic transitions.",
+  "addition": [
+    "Also,",
+    "Plus,",
+    "Beyond that,",
+    "On top of that,",
+    "At the same time,"
+  ],
+  "contrast": [
+    "Still,",
+    "On the other hand,",
+    "Even so,",
+    "By contrast,",
+    "Then again,"
+  ],
+  "cause_effect": [
+    "As a result,",
+    "Because of this,",
+    "So,",
+    "For that reason,",
+    "From there,"
+  ],
+  "clarification": [
+    "In other words,",
+    "Put simply,",
+    "Specifically,",
+    "To be clear,"
+  ],
+  "sequence": [
+    "Next,",
+    "After that,",
+    "From there,",
+    "Later on,"
+  ],
+  "emphasis": [
+    "In fact,",
+    "Clearly,",
+    "Notably,",
+    "Most importantly,"
+  ],
+  "concession": [
+    "Granted,",
+    "Of course,",
+    "Admittedly,",
+    "To be fair,"
+  ]
+}

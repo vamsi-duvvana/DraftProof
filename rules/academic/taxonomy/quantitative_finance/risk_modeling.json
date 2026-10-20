@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Financial Risk Management & Econometrics.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Risk Modeling.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "systemic_credit_risk_modeling",
+    "subfield_name": "Value-at-Risk, Tail Dependence & Portfolio Optimization",
+    "discipline": "Quantitative Finance & Economics",
+    "keywords": [
+      "risk",
+      "return",
+      "variance",
+      "covariance",
+      "credit",
+      "default",
+      "liquidity",
+      "market",
+      "exposure",
+      "tail",
+      "quantile",
+      "stress",
+      "capital",
+      "econometric"
+    ],
+    "authors": [
+      ["Engle", "R. F."],
+      ["Bollerslev", "T."],
+      ["Markowitz", "H."],
+      ["Jorion", "P."],
+      ["McNeil", "A. J."],
+      ["Embrechts", "P."]
+    ],
+    "journals": [
+      "Journal of Banking & Finance",
+      "Econometrica",
+      "Journal of Business & Economic Statistics",
+      "Risk Analysis",
+      "Journal of Financial and Quantitative Analysis"
+    ],
+    "topics": [
+      "extreme value theory and conditional Value-at-Risk in tail regimes",
+      "dynamic conditional correlation GARCH modeling of asset returns",
+      "systemic contagion and counterparty credit risk valuation"
+    ]
+  }
+]

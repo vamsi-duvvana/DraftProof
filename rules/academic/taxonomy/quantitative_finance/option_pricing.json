@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Quantitative Finance & Derivatives Pricing.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Option Pricing.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "stochastic_calculus_option_pricing",
+    "subfield_name": "Stochastic Volatility, Black-Scholes PDEs & Martingale Pricing",
+    "discipline": "Quantitative Finance & Economics",
+    "keywords": [
+      "option",
+      "pricing",
+      "volatility",
+      "stochastic",
+      "martingale",
+      "payoff",
+      "derivative",
+      "arbitrage",
+      "hedging",
+      "maturity",
+      "strike",
+      "asset",
+      "brownian",
+      "portfolio"
+    ],
+    "authors": [
+      ["Black", "F."],
+      ["Scholes", "M."],
+      ["Merton", "R. C."],
+      ["Heston", "S. L."],
+      ["Duffie", "D."],
+      ["Shreve", "S. E."]
+    ],
+    "journals": [
+      "Journal of Finance",
+      "Review of Financial Studies",
+      "Mathematical Finance",
+      "Quantitative Finance",
+      "Journal of Financial Economics"
+    ],
+    "topics": [
+      "no-arbitrage martingale valuation under stochastic volatility dynamics",
+      "finite-difference PDE pricing of American and exotic contingent claims",
+      "implied volatility surface calibration and jump-diffusion asymptotics"
+    ]
+  }
+]

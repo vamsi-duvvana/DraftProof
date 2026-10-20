@@ -1,0 +1,50 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Computer Science & Artificial Intelligence.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for AI & Machine Learning.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "machine_learning_deep_learning",
+    "subfield_name": "Machine Learning & Deep Neural Networks",
+    "discipline": "Computer Science & AI",
+    "keywords": [
+      "neural",
+      "network",
+      "learning",
+      "transformer",
+      "attention",
+      "gradient",
+      "training",
+      "classification",
+      "embedding",
+      "inference",
+      "parameter",
+      "optimization",
+      "dataset",
+      "representation",
+      "architecture"
+    ],
+    "authors": [
+      ["Vaswani", "A."],
+      ["Devlin", "J."],
+      ["He", "K."],
+      ["Bengio", "Y."],
+      ["LeCun", "Y."],
+      ["Goodfellow", "I."],
+      ["Kingma", "D. P."],
+      ["Hochreiter", "S."]
+    ],
+    "journals": [
+      "Advances in Neural Information Processing Systems (NeurIPS)",
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "Journal of Machine Learning Research",
+      "International Conference on Machine Learning (ICML)",
+      "International Conference on Learning Representations (ICLR)"
+    ],
+    "topics": [
+      "self-attention mechanisms and sequence representation",
+      "stochastic gradient optimization in deep architectures",
+      "generalization bounds for overparameterized neural networks",
+      "representation learning across high-dimensional feature manifolds"
+    ]
+  }
+]

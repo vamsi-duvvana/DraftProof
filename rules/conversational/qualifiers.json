@@ -1,0 +1,19 @@
+[
+  {
+    "__prompt__": "Role: Conversational Rhythm Editor.\nTask: Provide everyday qualifiers for safe insertion during n-gram disruption.\nNegative Prompting:\n- Keep modifiers natural and unobtrusive."
+  },
+  "really",
+  "actually",
+  "simply",
+  "truly",
+  "clearly",
+  "plainly",
+  "directly",
+  "broadly",
+  "largely",
+  "mainly",
+  "mostly",
+  "fairly",
+  "quite",
+  "notably"
+]

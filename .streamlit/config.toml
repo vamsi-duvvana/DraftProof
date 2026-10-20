@@ -1,0 +1,15 @@
+[server]
+fileWatcherType = "none"
+runOnSave = false
+headless = true
+
+[runner]
+fastReruns = false
+
+[theme]
+base = "dark"
+primaryColor = "#E63946"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#181B24"
+textColor = "#FAFAFA"
+font = "sans serif"

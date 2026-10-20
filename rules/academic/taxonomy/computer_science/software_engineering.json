@@ -1,0 +1,46 @@
+[
+  {
+    "__prompt__": "Role: Expert Academic Editor in Software Engineering.\nTask: Define sub-fields, concepts, keyword triggers, author pools, and prestigious journals for Software Engineering.\nNegative Prompting (Strict Alignment):\n- Do NOT include casual, non-academic, or informal terms."
+  },
+  {
+    "subfield_id": "software_architecture_verification",
+    "subfield_name": "Program Analysis, Testing & Software Architecture",
+    "discipline": "Computer Science & AI",
+    "keywords": [
+      "software",
+      "code",
+      "compiler",
+      "testing",
+      "refactoring",
+      "static",
+      "analysis",
+      "bug",
+      "verification",
+      "syntax",
+      "program",
+      "execution",
+      "pipeline",
+      "modular"
+    ],
+    "authors": [
+      ["Parnas", "D. L."],
+      ["Liskov", "B."],
+      ["Ernst", "M. D."],
+      ["Harman", "M."],
+      ["Zeller", "A."],
+      ["Cousot", "P."]
+    ],
+    "journals": [
+      "IEEE Transactions on Software Engineering",
+      "ACM Transactions on Software Engineering and Methodology",
+      "International Conference on Software Engineering (ICSE)",
+      "ACM SIGPLAN Notices",
+      "Empirical Software Engineering"
+    ],
+    "topics": [
+      "static abstract interpretation and automated defect localization",
+      "modular software architecture and dependency decoupling",
+      "syntax-preserving program transformation and regression verification"
+    ]
+  }
+]
