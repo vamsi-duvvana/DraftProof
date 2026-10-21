@@ -89,6 +89,12 @@ draftproof --help
 
 You can also run the same CLI with `python run.py`. Available options include `--config path/to/config.json`, `--citations IEEE`, and `--disable-stages voice,fusion,transition`. The CLI writes transformed text; use the citation web page for companion bibliography downloads.
 
+## Deploy on Vercel
+
+Import this GitHub repository into your Vercel account, select `master` as the production branch, and deploy from the repository root. Vercel detects `Dockerfile.vercel`, builds the Python container, and routes traffic to Streamlit on port 80. Leave build and output directory overrides unset. No AI SDK or API key is required.
+
+The container runtime is a Vercel beta feature. Sessions live in container memory and can reset when an instance restarts or scales down. Vercel's function connection duration and upload size limits also apply; keep local copies of documents and downloaded results. Local secrets, test files, and input/output folders are excluded from the container build context.
+
 ## Configuration
 
 - `rules/global_config.json`: global defaults, stage settings, and traffic routing.
